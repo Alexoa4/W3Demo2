@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Sidebar Menu Html CSS</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar{
+position: fixed;
+ background: #ED1C5B;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+.sidebar h2{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #E20E4E;
+  padding: 20px;
+  font-weight: bold;
+}
+.sidebar ul li{
+  margin:25px 0;
+}
+.sidebar ul li a {
+  color: #ffffff;
+  padding: 0 30px;
+}
+.sidebar ul li a:hover{
+  color: #000000;
+  margin-left: 20px;
+  transition: 0.4s
+}
+.main{
+  margin-left: 200px;
+  padding: 5px;
+  
+}
+.main h2{
+  margin-top: 20px;
+}
+	</style>
+  </head>
+  <body>
+	<div class="sidebar">
+		<h2>Next</h2>
+			<ul class="nav">
+				<li> 
+				<a href="#">
+				<i class="fas fa-server"></i>
+				<span>Dashboard</span>
+					</a>
+					 </li>
+						<li>
+				<a href="#">
+				<i class="fas fa-concierge-bell"></i>
+				<span>Services</span>
+					</a>
+					 </li>
+						<li>
+				<a href="#">
+				<i class="fas fa-calendar-alt"></i>
+				<span>Events</span>
+					</a>
+					 </li>	 
+						<li>
+				<a href="#">
+				<i class="fas fa-cog"></i>
+				<span>Settings</span>
+					</a>
+					 </li>
+						<li>
+				<a href="#">
+				<i class="fas fa-question-circle"></i>
+				<span>About</span>
+					</a>
+					 </li>	 
+						<li>
+				<a href="#">
+				<i class="fas fa-address-card"></i>
+				<span>Contact</span>
+					</a>
+					 </li>
+			</ul>
+	</div>
+	<div class="main"
+	<h2> Fixed Sidebar Menu with HTML and CSS</h2>
+	 <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, sint
+        natus. Quibusdam consequatur natus, excepturi, temporibus quaerat aut
+        quae quam quis officiis corporis fugiat hic sed? Voluptatem omnis
+        dolores illum?
+      </p>
+	</div>
+  
+  </body>
+  </html>
