@@ -13,6 +13,7 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 38px;
+  background-color: darkgrey;
 }
 
 .left-side{
