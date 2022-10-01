@@ -34,7 +34,7 @@ text-transform: uppercase;
 }
 
 .nav-link-wrapper a {
-  color: #8a8a8a;
+  color: lightblue;
   text-decoration: none;
   transition: color 0.5s;
 }
