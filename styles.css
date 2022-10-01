@@ -17,6 +17,7 @@ body{
 
 .left-side{
   display: flex;
+  color: red;
 
 }
 
